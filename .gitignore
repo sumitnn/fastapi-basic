@@ -26,6 +26,6 @@ test_env/
 *~
 .*.sw?
 .cache
-
+/site
 # macOS
 .DS_Store
