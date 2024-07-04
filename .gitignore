@@ -22,6 +22,7 @@ docs.zip
 archive.zip
 test_env
 # vim temporary files
+test_env/
 *~
 .*.sw?
 .cache
