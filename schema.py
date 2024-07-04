@@ -1,5 +1,5 @@
 from pydantic import BaseModel,EmailStr, Field
-
+from typing import Optional
 
 
 class User(BaseModel):
@@ -7,7 +7,7 @@ class User(BaseModel):
     email:EmailStr
     age:int
     city:str =''
-    online:bool =False
+    online:Optional[bool]=False
     password:str 
 
 
@@ -16,6 +16,6 @@ class ShowUser(BaseModel):
     email:EmailStr
     age:int
     city:str
-    online:bool
+    online:Optional[bool]=None
  
     
